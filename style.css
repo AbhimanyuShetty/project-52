@@ -1,0 +1,50 @@
+.menu
+{
+display:flex;
+justify-content:space-between;
+background-color:black;
+padding: 15px;
+font-size: 20;
+font-weight: 400;
+font-family: sans-serif;
+color: whitesmoke;
+
+}
+body
+{
+    margin: 0px;
+background-color: cyan;
+
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:purple;
+}
+.grid
+{
+margin:40px;
+display:flex;
+flex-wrap: wrap;
+font-family: sans-serif;
+
+}
+.grid img{
+    border:2px solid black;
+    border-radius: 50px;
+
+}
+.origami
+{
+    padding: 30px;
+    margin: 25px;
+border-radius: 20px;
+background-color: blanchedalmond;
+width: 310px;
+font-family: fantasy;
+}
+.origami:hover
+{
+    transform:scale(1.2);
+}
